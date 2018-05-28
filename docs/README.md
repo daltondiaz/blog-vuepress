@@ -1,11 +1,14 @@
 ---
 home: true
-actionText: See Counter App
-actionLink: /counter/counter-app
+heroImage: https://avatars2.githubusercontent.com/u/3844467?s=460&v=4
+actionText: Lastets Post
+actionLink: /blog/
 features:
-- title: Embedded Vue Counter
-  details: A Vue counter developed using Vue is embedded in this doc, now thats the power of VuePress!
-- title: Fun Docs made with VuePress
-  details: This entire doc was basically made with VuePress which parsed markdown files and corresponding assets using webpack.
-footer: Developed using VuePress by William Imoh
+- title: Backend
+  details: Work with Java and PHP. Playing Nodejs/Javascript and Python
+- title: Frontend
+  details: Javascript, Vuejs and jQuery
+- title: Studying and Interests
+  details: Machine Learning, Deep Learning, Containers, Agile and Productivity
+footer: Developed using VuePress by dalton
 ---

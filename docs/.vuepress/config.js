@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playinh around',
+    title: '0Day',
+    description: 'Post since Java until Machine Learning',
     configureWebpack: {
         resolve: {
             alias: {
@@ -10,25 +10,21 @@ module.exports = {
     },
     themeConfig: {
         nav: [
-            { text: 'Counter', link: '/counter/' },
-            { text: 'Guide', link: '/guide/'},
+            { text: 'Blog', link: '/blog/' },
+            {
+                text: 'GitHub',
+                link: 'https://github.com/daltondiaz'
+            }
         ],
         sidebar: [
             {
-                title: 'Counter',
+                title: 'Blog',
                 collapsable: false,
                 children: [
-                    '/counter/counter-app'
+                    '/blog'
                 ]
             },
-            {
-                title: 'API Guide',
-                collapsable: false,
-                children: [
-                    '/guide/guide',
-                    '/guide/api'
-                ]
-            }
+            
         ]
     }
 }
