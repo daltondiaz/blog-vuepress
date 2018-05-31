@@ -1,7 +1,7 @@
 {
-  "name" : "blog-vuepress",
-  "version" : "1.0.0",
-  "description" : "",
+  "name": "blog-vuepress",
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -11,5 +11,10 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^0.8.4"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "markdown-it-deflist": "^2.0.3",
+    "moment": "^2.22.1"
   }
 }
