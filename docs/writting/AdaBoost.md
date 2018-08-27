@@ -10,3 +10,5 @@ AdaBoost can be used both for classification and regression problems.
 TODO: install https://github.com/CenterForOpenScience/markdown-it-video
 
 @[youtube](https://www.youtube.com/watch?v=gmok1h8wG-Q&t=403s)
+
+http://scikit-learn.org/stable/modules/ensemble.html#adaboost

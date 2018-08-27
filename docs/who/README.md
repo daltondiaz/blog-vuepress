@@ -19,3 +19,8 @@ Ahh, english is not my native language, so I will pratice either.
 [VuePress](https://github.com/vuejs/vuepress)
 
 - edit page from Bitbucket ([#569](https://github.com/vuejs/vuepress/issues/569)) ([5479d6e](https://github.com/vuejs/vuepress/commit/5479d6e))
+
+
+### Contact
+
+Github: [@daltondiaz](https://github.com/daltondiaz)

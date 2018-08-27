@@ -9,6 +9,6 @@ features:
 - title: Frontend
   details: Javascript, Vuejs and jQuery
 - title: Studying and Interests
-  details: AI, Machine Learning, Deep Learning, Containers, Agile and Productivity
+  details: AI, Machine Learning, Deep Learning, Agile and Productivity
 footer: Developed using VuePress by dalton
 ---
