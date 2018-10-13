@@ -65,7 +65,6 @@ const generateBlogSideBar = dir => {
 
 module.exports = {
     title: '0Day',
-    description: 'Post since Java until Machine Learning',
     configureWebpack: {
         resolve: {
             alias: {
@@ -73,24 +72,56 @@ module.exports = {
             }
         }
     },
+    locales: {
+        // The key is the path for the locale to be nested under.
+        // As a special case, the default locale can use '/' as its path.
+        '/': {
+            lang: 'en-US', // this will be set as the lang attribute on <html>
+            title: '0day',
+            description: 'Post since Java until Machine Learning',
+        },
+        '/pt/': {
+            lang: 'pt-BR',
+            title: '0day',
+            description: 'Desde Java até Machine Learning',
+        }
+    },
     sidebarDepth: 0,
     themeConfig: {
-        nav: [
-            { text: 'Blog', link: '/blog/' },
-            { text: 'Who am I?', link: '/who/'},
-            {
-                text: 'GitHub',
-                link: 'https://github.com/daltondiaz'
+        locales: {
+            '/': {
+                selectText: 'Languages',
+                label: 'English',
+                nav: [
+                    { text: 'Blog', link: '/blog/' },
+                    { text: 'Who am I?', link: '/who/'},
+                    {
+                        text: 'GitHub',
+                        link: 'https://github.com/daltondiaz'
+                    }
+                ],
+                sidebar:{
+                    '/blog/': [
+                        '',
+                        ...generateBlogSideBar('/blog'),
+                    ],
+                    '/who/': [
+                       '', 
+                    ]
+                },
+            },
+            '/pt/': {
+                selectText: 'Idioma',
+                label: 'Português',
+                nav: [
+                    { text: 'Blog', link: '/pt/blog/' },
+                    { text: 'Quem sou?', link: '/pt/quem/'},
+                    {
+                        text: 'GitHub',
+                        link: 'https://github.com/daltondiaz'
+                    }
+                ],
             }
-        ],
-        sidebar:{
-            '/blog/': [
-                '',
-                ...generateBlogSideBar('/blog'),
-            ],
-            '/who/': [
-               '', 
-            ]
         },
     },
     markdown: {
