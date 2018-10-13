@@ -5,7 +5,7 @@ actionText: Últimos Post
 actionLink: /pt/blog/
 features:
 - title: Backend
-  details: Trabalho com Java e PHP. Estudando Nodejs/Javascript and Python
+  details: Trabalho com Java e PHP. Brinco Nodejs/Javascript and Python
 - title: Frontend
   details: Javascript, Vuejs e jQuery
 - title: Estudo e Interesses

@@ -121,6 +121,15 @@ module.exports = {
                         link: 'https://github.com/daltondiaz'
                     }
                 ],
+                sidebar:{
+                    '/pt/blog/': [
+                        '',
+                        ...generateBlogSideBar('/pt/blog'),
+                    ],
+                    '/pt/quem/': [
+                       '', 
+                    ]
+                },
             }
         },
     },
